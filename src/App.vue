@@ -5,8 +5,7 @@ import CustomComponent from './components/CustomComponent.vue'
 </script>
 
 <template>
-  <CustomComponent />
-  <header>
+  <header class="mb-4">
     <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
 
     <div class="wrapper">
@@ -16,6 +15,10 @@ import CustomComponent from './components/CustomComponent.vue'
 
   <main>
     <!-- <TheWelcome /> -->
+    <div class="d-flex align-items-center justify-content-around">
+      <CustomComponent />
+      <CustomComponent />
+    </div>
   </main>
 </template>
 

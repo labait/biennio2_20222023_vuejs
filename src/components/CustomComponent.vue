@@ -9,7 +9,7 @@ defineProps({
 
 <template>
  <div class="custom-component">
-  <div class="title">
+  <div class="title text-center">
     i'm a custom component!
   </div>
  </div>
@@ -17,6 +17,6 @@ defineProps({
 
 <style scoped>
   .title {
-    font-size: 2em;
+    font-size: 1em;
   }
 </style>
