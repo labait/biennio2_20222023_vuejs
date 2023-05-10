@@ -1,7 +1,7 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
-import CustomComponent from './components/CustomComponent.vue'
+import PortfolioItem from './components/PortfolioItem.vue'
 </script>
 
 <template>
@@ -14,10 +14,22 @@ import CustomComponent from './components/CustomComponent.vue'
   </header>
 
   <main>
-    <!-- <TheWelcome /> -->
-    <div class="d-flex align-items-center justify-content-around">
-      <CustomComponent />
-      <CustomComponent />
+    <div class="row">
+      <div class="col">
+        <PortfolioItem 
+          title="news 1"
+          abstract="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+          imageUrl="https://source.unsplash.com/random/?green"
+        />
+
+      </div>
+      <div class="col">
+        <PortfolioItem 
+          title="news 2"
+          abstract="Cras justo odio, dapibus ac facilisis in, egestas eget quam."
+          imageUrl="/images/image1.jpg"
+        />
+      </div>
     </div>
   </main>
 </template>
