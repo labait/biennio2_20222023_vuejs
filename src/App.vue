@@ -1,8 +1,19 @@
-<script setup>
+<script >
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
 import PortfolioItem from './components/PortfolioItem.vue'
-</script>
+
+import worksData from './assets/works.json'
+
+export default {
+  data() {
+    return {
+      works: worksData,
+    };
+  },
+};
+
+</script> 
 
 <template>
   <header class="mb-4">
@@ -32,6 +43,12 @@ import PortfolioItem from './components/PortfolioItem.vue'
       </div>
     </div>
   </main>
+
+  <div id="works">
+    <p v-for="work in works" :key="work.id">
+      {{work.id}}
+    </p>
+  </div>
 </template>
 
 <style scoped>
