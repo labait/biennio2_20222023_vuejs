@@ -11,6 +11,9 @@ export default {
       works: worksData,
     };
   },
+  components: {
+    PortfolioItem,
+  },
 };
 
 </script> 
@@ -26,29 +29,17 @@ export default {
 
   <main>
     <div class="row">
-      <div class="col">
-        <PortfolioItem 
-          title="news 1"
-          abstract="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-          imageUrl="https://source.unsplash.com/random/?green"
+      <div class="col" v-for="work in works" :key="work.id">
+         <PortfolioItem 
+          :title="work.title"
+          :abstract="work.description"
+          :imageUrl="work.image_thumbnail"
         />
 
       </div>
-      <div class="col">
-        <PortfolioItem 
-          title="news 2"
-          abstract="Cras justo odio, dapibus ac facilisis in, egestas eget quam."
-          imageUrl="/images/image1.jpg"
-        />
-      </div>
+
     </div>
   </main>
-
-  <div id="works">
-    <p v-for="work in works" :key="work.id">
-      {{work.id}}
-    </p>
-  </div>
 </template>
 
 <style scoped>
