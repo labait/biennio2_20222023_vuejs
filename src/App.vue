@@ -2,19 +2,21 @@
 
 import Header from './components/Header.vue'
 import PortfolioItem from './components/PortfolioItem.vue'
+import SocialLink from './components/SocialLink.vue'
 
 
-import worksData from './assets/works.json'
+import contentsData from './assets/contents.json'
 
 export default {
   data() {
     return {
-      works: worksData,
+      contents: contentsData,
     };
   },
   components: {
     Header,
     PortfolioItem,
+    SocialLink,
   },
 };
 
@@ -24,14 +26,26 @@ export default {
   <main>
     <Header />
 
-    <div class="row">
-      <div class="col-12 col-md-6" v-for="work in works" :key="work.id">
+    <div id="works" class="row">
+      <div class="col-12 col-md-6" v-for="work in contents.works" :key="work.id">
          <PortfolioItem 
           :title="work.title"
           :abstract="work.description"
           :imageUrl="work.image_thumbnail"
         />
       </div>
+    </div>
+
+    <div id="social-links" class="row">
+      <ul>
+        <li v-for="link in contents.social_links" :key="link.id">
+          <SocialLink 
+            :id="link.id"
+            :name="link.name"
+            :url="link.url"
+          />
+        </li>
+      </ul>
     </div>
   </main>
 </template>
