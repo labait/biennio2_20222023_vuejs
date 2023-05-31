@@ -4,7 +4,7 @@
 
 <template>
   <header>
-    <img class="logo" src="./assets/logo.svg" alt="Logo" />
+    <img class="logo" src="@/assets/logoile.png" alt="Logo"/>
     <div class="wrapper">
       <h1>My Portfolio</h1>
       <p>
@@ -18,5 +18,15 @@
 </template>
 
 <style scoped>
+.logo{
+  position: static;
+  width: 100px;
+  height: 100px;
+}
 
+.wrapper{
+  position: relative;
+  padding-right: 30%;
+  margin-top: 10%;
+}
 </style>

@@ -24,28 +24,37 @@
   "works": [
     {
       "id": 1,
-      "title": "Work 1",
-      "description": "This is a sample work",
-      "image_thumbnail": "https://picsum.photos/300/200",
-      "image_detail": "https://picsum.photos/1024/768",
+      "title": "Wedding",
+      "description": "Verona e provincia",
+      "image_thumbnail": "./src/assets/Rectangle 3.png",
+      "image_detail": "./src/assets/Rectangle 3.png",
       "client": "Client 1",
       "url": "https://www.google.com"
     },
     {
       "id": 2,
-      "title": "Work 2",
-      "description": "This is the second work",
-      "image_thumbnail": "https://picsum.photos/300/200",
-      "image_detail": "https://picsum.photos/1024/768",
+      "title": "Eventi",
+      "description": "Verona e provincia",
+      "image_thumbnail": "./src/assets/Rectangle 6.png",
+      "image_detail": "./src/assets/Rectangle 6.png",
       "client": "Client 1",
       "url": "https://www.google.com"
     },
     {
       "id": 3,
-      "title": "Work 3",
-      "description": "third work",
-      "image_thumbnail": "https://picsum.photos/300/200",
-      "image_detail": "https://picsum.photos/1024/768",
+      "title": "Graphic Designer",
+      "description": "Grafica tradizionale, web deisgn",
+      "image_thumbnail": "./src/assets/Graphic project.png",
+      "image_detail": "./src/assets/Graphic project.png",
+      "client": "Client 1",
+      "url": "https://www.google.com"
+    },
+    {
+      "id": 3,
+      "title": "Wedding Graphic",
+      "description": "Inviti",
+      "image_thumbnail": "./src/assets/Inviti.png",
+      "image_detail": "./src/assets/Inviti.png",
       "client": "Client 1",
       "url": "https://www.google.com"
     }

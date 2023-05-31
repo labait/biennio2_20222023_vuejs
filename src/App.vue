@@ -3,8 +3,7 @@
 import Header from './components/Header.vue'
 import PortfolioItem from './components/PortfolioItem.vue'
 import SocialLink from './components/SocialLink.vue'
-
-
+import Footer from './components/Footer.vue'
 import contentsData from './assets/contents.json'
 
 export default {
@@ -17,6 +16,7 @@ export default {
     Header,
     PortfolioItem,
     SocialLink,
+    Footer,
   },
 };
 
@@ -47,10 +47,14 @@ export default {
         </li>
       </ul>
     </div>
+    <Footer/>
   </main>
 </template>
 
 <style scoped>
+
+
+
 header {
   line-height: 1.5;
 }
