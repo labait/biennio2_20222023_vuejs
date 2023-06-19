@@ -30,7 +30,7 @@ export default {
     <Header />
 
     <div id="works" class="row">
-      <div class="col-12 col-md-6" v-for="work in contents.works" :key="work.id">
+      <div class="col-12 col-md-3" v-for="work in contents.works" :key="work.id">
          <PortfolioItem 
           :title="work.title"
           :abstract="work.description"

@@ -4,7 +4,7 @@
 
 
 <template>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <nav class="navbar bg-danger-subtle navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
       <a class="navbar-brand" href="#" >
       <img class="logo" src="@/assets/logoile.png" alt="Logo"/>
@@ -13,7 +13,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
+        <ul class="navbar-nav justify-content-end">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>

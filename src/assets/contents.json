@@ -16,35 +16,73 @@
       "id": 1,
       "title": "Wedding",
       "description": "Verona e provincia",
-      "image_thumbnail": "./src/assets/Rectangle 3.png",
-      "image_detail": "./src/assets/Rectangle 3.png",
+      "image_thumbnail": "./src/assets/wedding.png",
+      "image_detail": "./src/assets/wedding.png",
       "client": "Client 1",
       "url": "https://www.google.com"
     },
     {
       "id": 2,
-      "title": "Eventi",
-      "description": "Verona e provincia",
-      "image_thumbnail": "./src/assets/Rectangle 6.png",
-      "image_detail": "./src/assets/Rectangle 6.png",
+      "title": "Baby Shooting",
+      "description": "Ricordi di infanzia",
+      "image_thumbnail": "./src/assets/alice.png",
+      "image_detail": "./src/assets/alice.png",
       "client": "Client 1",
       "url": "https://www.google.com"
     },
     {
       "id": 3,
-      "title": "Graphic Designer",
-      "description": "Grafica tradizionale, web deisgn",
-      "image_thumbnail": "./src/assets/Graphic project.png",
-      "image_detail": "./src/assets/Graphic project.png",
+      "title": "Maternity",
+      "description": "Ricorda i momenti di attesa e di gioia della tua gravidanza.",
+      "image_thumbnail": "./src/assets/maternity.png",
+      "image_detail": "./src/assets/maternity.png",
+      "client": "Client 1",
+      "url": "https://www.google.com"
+    },
+    {
+      "id": 4,
+      "title": "Ricordi Speciali, Persone Speciali",
+      "description": "Progetto fotografico a tema Patrimonio/Patrimoni, selezionato al Brescia Photo Festival",
+      "image_thumbnail": "./src/assets/Rectangle 28.png",
+      "image_detail": "./src/assets/Rectangle 28.png",
+      "client": "Client 1",
+      "url": "https://www.google.com"
+    }
+  ],
+  "graphic": [
+    {
+      "id": 1,
+      "title": "Corte Fusia",
+      "description": "Collaborazione brand identity e rebranding brochure.",
+      "image_thumbnail": "./src/assets/cf.png",
+      "image_detail": "./src/assets/cf.png",
+      "client": "Client 1",
+      "url": "https://www.google.com"
+    },
+    {
+      "id": 2,
+      "title": "Travell Photography",
+      "description": "Applicazione per fotografi, per organizzare i propri viaggi e munirsi dell'attrezzatura necessaria grazie alla una comunity che si crea nell'app.",
+      "image_thumbnail": "./src/assets/appviaggi.png",
+      "image_detail": "./src/assets/appviaggi.png",
       "client": "Client 1",
       "url": "https://www.google.com"
     },
     {
       "id": 3,
-      "title": "Wedding Graphic",
-      "description": "Inviti",
-      "image_thumbnail": "./src/assets/Inviti.png",
-      "image_detail": "./src/assets/Inviti.png",
+      "title": "NutriFun4Health",
+      "description": "Collaborazione brand identity e logo design.",
+      "image_thumbnail": "./src/assets/nf4h.png",
+      "image_detail": "./src/assets/nf4h.png",
+      "client": "Client 1",
+      "url": "https://www.google.com"
+    },
+    {
+      "id": 4,
+      "title": "Apology",
+      "description": "Applicazione per i ritardatari cronici, scuse divertenti da inviare a chi vuoi!",
+      "image_thumbnail": "./src/assets/scuse.png",
+      "image_detail": "./src/assets/scuse.png",
       "client": "Client 1",
       "url": "https://www.google.com"
     }
