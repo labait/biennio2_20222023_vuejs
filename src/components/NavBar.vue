@@ -4,7 +4,7 @@
 
 
 <template>
-      <nav class="navbar bg-danger-subtle navbar-expand-lg bg-body-tertiary">
+      <nav class="navbar bg-danger-subtle navbar-expand-lg">
     <div class="container-fluid">
       <a class="navbar-brand" href="#" >
       <img class="logo" src="@/assets/logoile.png" alt="Logo"/>
