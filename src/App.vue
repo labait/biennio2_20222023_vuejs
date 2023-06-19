@@ -5,6 +5,7 @@ import PortfolioItem from './components/PortfolioItem.vue'
 import SocialLink from './components/SocialLink.vue'
 import Footer from './components/Footer.vue'
 import contentsData from './assets/contents.json'
+import NavBar from './components/NavBar.vue'
 
 export default {
   data() {
@@ -17,6 +18,7 @@ export default {
     PortfolioItem,
     SocialLink,
     Footer,
+    NavBar,
   },
 };
 
@@ -24,6 +26,7 @@ export default {
 
 <template>
   <main>
+    <NavBar />
     <Header />
 
     <div id="works" class="row">
@@ -54,7 +57,10 @@ export default {
 <style scoped>
 
 
-
+NavBar{
+  background-color: rgb(213, 173, 156);
+  height: 4rem;
+}
 header {
   line-height: 1.5;
 }

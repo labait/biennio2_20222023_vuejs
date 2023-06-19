@@ -3,15 +3,16 @@
 </script>
 
 <template>
+   
   <header>
-    <img class="logo" src="@/assets/logoile.png" alt="Logo"/>
     <div class="wrapper">
       <h1>My Portfolio</h1>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-        voluptatum, voluptate, quibusdam, quia voluptas quod quos
-        exercitationem voluptatem quas quibusdam, quia voluptas quod quos
-        exercitationem voluptatem quas.
+        Ho da sempre nutrito un profondo amore per la fotografia e la sua  capacità di immortalare istanti che rimarranno indelebili nel tempo.
+  Amo trascorrere del tempo con le persone, perché sono convinta che ognuna di esse possa regalarmi qualcosa di unico, qualcosa che porterò con me.
+  La mia passione per la fotografia mi ha spinto a intraprendere un percorso accademico, dove ho potuto approfondire le tecniche, le teorie, le conoscenze e i segreti di questa meravigliosa forma d'arte. 
+  Sono sempre alla ricerca di nuove sfide e di modi creativi per esprimere la mia passione attraverso l'obiettivo. 
+  In seguito alla laurea in fotografia ho intrapreso un biennio di Digital Design e Comunication per ampliare le mie conoscenze. 
       </p>
     </div>
   </header>
@@ -27,6 +28,6 @@
 .wrapper{
   position: relative;
   padding-right: 30%;
-  margin-top: 10%;
+  margin-top: 2rem;
 }
 </style>
