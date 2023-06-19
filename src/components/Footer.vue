@@ -16,7 +16,7 @@
 
 </script>
 
-<style>
+<style scoped>
 .card{
     background-color: rgb(202, 170, 156);
 
