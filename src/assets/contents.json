@@ -62,7 +62,7 @@
     {
       "id": 2,
       "title": "Travell Photography",
-      "description": "Applicazione per fotografi, per organizzare i propri viaggi e munirsi dell'attrezzatura necessaria grazie alla una comunity che si crea nell'app.",
+      "description": "Applicazione per fotografi, per organizzare i propri viaggi fotografici.",
       "image_thumbnail": "./src/assets/appviaggi.png",
       "image_detail": "./src/assets/appviaggi.png",
       "client": "Client 1",

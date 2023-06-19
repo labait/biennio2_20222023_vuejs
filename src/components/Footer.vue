@@ -8,7 +8,6 @@
         <p class="card-text">Email: ileniacauchioli@gmail.com</p>
         <p class="card-text">Telephone: 3421602355</p>
         <link rel="stylesheet" href="">
-
       </div>
     </div>
 </template>

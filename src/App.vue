@@ -6,6 +6,7 @@ import SocialLink from './components/SocialLink.vue'
 import Footer from './components/Footer.vue'
 import contentsData from './assets/contents.json'
 import NavBar from './components/NavBar.vue'
+import Graphic from './components/Graphic.vue'
 
 export default {
   data() {
@@ -19,6 +20,7 @@ export default {
     SocialLink,
     Footer,
     NavBar,
+    Graphic,
   },
 };
 
@@ -38,6 +40,18 @@ export default {
         />
       </div>
     </div>
+
+    <Graphic/>
+     <div id="Graphic" class="row">
+        <div class="col-12 col-md-3" v-for="work in contents.graphic" :key="work.id">
+           <PortfolioItem 
+            :title="work.title"
+            :abstract="work.description"
+            :imageUrl="work.image_thumbnail"
+          />
+        </div>
+      </div>
+
 
     <div id="social-links" class="row">
       <ul>
@@ -61,6 +75,7 @@ NavBar{
   background-color: rgb(213, 173, 156);
   height: 4rem;
 }
+
 header {
   line-height: 1.5;
 }
