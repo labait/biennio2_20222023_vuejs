@@ -1,16 +1,6 @@
 {
   "social_links": [
     {
-      "id": 1,
-      "name": "facebook",
-      "url": "https://www.facebook.com"
-    },
-    {
-      "id": 2,
-      "name": "twitter",
-      "url": "https://www.twitter.com"
-    },
-    {
       "id": 3,
       "name": "instagram",
       "url": "https://www.instagram.com"
@@ -24,28 +14,75 @@
   "works": [
     {
       "id": 1,
-      "title": "Work 1",
-      "description": "This is a sample work",
-      "image_thumbnail": "https://picsum.photos/300/200",
-      "image_detail": "https://picsum.photos/1024/768",
+      "title": "Wedding",
+      "description": "Verona e provincia",
+      "image_thumbnail": "./src/assets/wedding.png",
+      "image_detail": "./src/assets/wedding.png",
       "client": "Client 1",
       "url": "https://www.google.com"
     },
     {
       "id": 2,
-      "title": "Work 2",
-      "description": "This is the second work",
-      "image_thumbnail": "https://picsum.photos/300/200",
-      "image_detail": "https://picsum.photos/1024/768",
+      "title": "Baby Shooting",
+      "description": "Ricordi di infanzia",
+      "image_thumbnail": "./src/assets/alice.png",
+      "image_detail": "./src/assets/alice.png",
       "client": "Client 1",
       "url": "https://www.google.com"
     },
     {
       "id": 3,
-      "title": "Work 3",
-      "description": "third work",
-      "image_thumbnail": "https://picsum.photos/300/200",
-      "image_detail": "https://picsum.photos/1024/768",
+      "title": "Maternity",
+      "description": "Ricorda i momenti di attesa e di gioia della tua gravidanza.",
+      "image_thumbnail": "./src/assets/maternity.png",
+      "image_detail": "./src/assets/maternity.png",
+      "client": "Client 1",
+      "url": "https://www.google.com"
+    },
+    {
+      "id": 4,
+      "title": "Ricordi Speciali, Persone Speciali",
+      "description": "Progetto fotografico a tema Patrimonio/Patrimoni, selezionato al Brescia Photo Festival",
+      "image_thumbnail": "./src/assets/Rectangle 28.png",
+      "image_detail": "./src/assets/Rectangle 28.png",
+      "client": "Client 1",
+      "url": "https://www.google.com"
+    }
+  ],
+  "graphic": [
+    {
+      "id": 1,
+      "title": "Corte Fusia",
+      "description": "Collaborazione brand identity e rebranding brochure.",
+      "image_thumbnail": "./src/assets/cf.png",
+      "image_detail": "./src/assets/cf.png",
+      "client": "Client 1",
+      "url": "https://www.google.com"
+    },
+    {
+      "id": 2,
+      "title": "Travell Photography",
+      "description": "Applicazione per fotografi, per organizzare i propri viaggi fotografici.",
+      "image_thumbnail": "./src/assets/appviaggi.png",
+      "image_detail": "./src/assets/appviaggi.png",
+      "client": "Client 1",
+      "url": "https://www.google.com"
+    },
+    {
+      "id": 3,
+      "title": "NutriFun4Health",
+      "description": "Collaborazione brand identity e logo design.",
+      "image_thumbnail": "./src/assets/nf4h.png",
+      "image_detail": "./src/assets/nf4h.png",
+      "client": "Client 1",
+      "url": "https://www.google.com"
+    },
+    {
+      "id": 4,
+      "title": "Apology",
+      "description": "Applicazione per i ritardatari cronici, scuse divertenti da inviare a chi vuoi!",
+      "image_thumbnail": "./src/assets/scuse.png",
+      "image_detail": "./src/assets/scuse.png",
       "client": "Client 1",
       "url": "https://www.google.com"
     }
